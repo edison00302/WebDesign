@@ -7,3 +7,4 @@ The goals are as following:
 * Second
     * 2-1
 * Third
+![LOGO](images/design.jpeg)
