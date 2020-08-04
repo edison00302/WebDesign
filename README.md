@@ -7,6 +7,7 @@ The goals are as following:
 * Second
     * 2-1
 * Third
+
 ![LOGO](Images/design.jpeg)
 
 
@@ -14,3 +15,8 @@ As Kanye West said:
 
 > We're living the future so
 > the present is our past.
+
+
+Add on develop
+
+Trying to do something on develop
