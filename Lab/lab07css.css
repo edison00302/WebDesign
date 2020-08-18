@@ -1,0 +1,26 @@
+.grid-1 {
+    background: chocolate;
+    height: 10vh;
+}
+.grid-2 {
+    background: rgb(233, 233, 19);
+    height: 10vh;
+}
+.grid-3 {
+    background: rgb(52, 225, 124);
+    height: 80vh;
+}
+.grid-4 {
+    background: rgb(29, 56, 165);
+    height: 10vh;
+}
+
+.left {
+    background: rgb(29, 56, 165);
+    height: 10vh;
+}
+
+.right {
+    background: rgb(52, 225, 124);
+    height: 80vh;
+}
