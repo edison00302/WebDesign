@@ -1,0 +1,37 @@
+body{
+    display: grid;
+    grid-template-rows: 10% 80% 10%;   /*先把body切成上中下 */
+    width: auto;
+    height: 100vh;
+    margin:0
+}
+div.head{
+    display: grid;
+    grid-template-columns: 125px 1fr;
+    
+}
+
+.head .logo{
+    background: rgb(221, 77, 33);
+    height: 10vh;
+}
+
+.head .menu{
+    background: rgb(33, 165, 221);
+    height: 10vh;
+}
+
+
+
+div.main{
+    background: rgb(58, 113, 10);
+}
+
+div.foot{
+    background: rgb(30, 8, 88);
+}
+
+.tales {
+    width: 100%;
+    max-height: 80vh
+  }
