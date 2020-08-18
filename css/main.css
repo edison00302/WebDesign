@@ -1,0 +1,14 @@
+@import './reset.css';
+
+.menu {
+  height: 100vh;
+  width: 300px;
+  background-color: #eef2d1;
+  float: left;
+}
+
+.content {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(226, 129, 129);
+}

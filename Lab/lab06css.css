@@ -1,0 +1,50 @@
+body{
+    display: grid;
+    grid-template-columns: 150px 1fr;   /*先把body切成左右兩邊 */
+    height: 100vh;
+    margin:0
+
+}
+
+div.left{
+    background: #FBC2B5;
+    height: 100vh;
+    text-align: center;
+    font-size: x-large;
+}
+
+div.right{
+    display: grid;                 /*要記得display要再一次 grid */
+    grid-template-rows: 10% 90%;   /*再把右邊的 切成上下兩塊 */
+    
+}
+
+.right .head{                   /*裡面遇到的第一個會是10% */
+    background: #FFA8A9;
+    text-align: center;
+    font-size: x-large;
+
+}
+
+.right .main{                   /*裡面遇到的第二個會是90% */
+    background: rgb(255, 255, 255); 
+
+}
+
+.right .main td { background-color: #FEEFEC;border-style: dotted;} 
+.right .main thead { background-color:#CDB2AB;}
+    
+#neon {
+    color: white;
+    margin: 5px;
+    text-shadow: 
+	    0 0 10px #fff, 
+		0 0 20px #fff, 
+		0 0 30px #fff, 
+		0 0 40px #6AB5FF, 
+		0 0 70px #6AB5FF, 
+		0 0 80px #6AB5FF, 
+		0 0 100px #6AB5FF, 
+		0 0 150px #6AB5FF;
+}
+    
