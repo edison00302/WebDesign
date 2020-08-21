@@ -1,0 +1,43 @@
+body{
+    display: grid;
+    grid-template-rows: 90px 1fr;   /*先把body切成上下 */
+    width: auto;
+    margin:0
+}
+
+div.menuback{
+    background: rgb(255, 255, 255);
+    height: 90px;
+
+}
+
+div.menuback .menu{
+    background:rgba(255, 250, 250, 0.5); /* 把清menu變成半透明的 */
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    z-index: 999;                         /*把這個menu的圖層至於最上面 才不會被下面的圖擋住 */
+}
+
+div.menuback .menu ul{
+    text-align: center;    /* 把字靠右 */
+    margin-right: 10px;   /* 清單與銀幕旁邊的距離 */
+}
+
+div.menuback .menu li{
+    display:inline;        /* 把清單轉成平行 */
+    color: rgb(7, 6, 6); /* 把字的顏色改成黑色 */
+    line-height: 60px;   /* 把字平行往下 */
+    margin-right: 40px; /* 清單裡面字之間的距離 */
+}
+
+div.content{
+    background: coral;
+    height: 150vh;
+}
+
+
+.tales {
+    width: 100%;            /*圖片的寬度與高度 */
+    max-height: 80vh
+  }
