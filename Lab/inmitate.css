@@ -22,7 +22,7 @@ div.menuback .menu_main{
 
 div.menuback .menu_main ul{
     text-align: center;    /* 把字靠右 */
-    margin-right: 10px;   /* 清單與銀幕旁邊的距離 */
+    margin-left: 90px;   /* 清單與銀幕旁邊的距離 */
     height: 70px;
 }
 
@@ -34,9 +34,14 @@ div.menuback .menu_main li{
 }
 
 div.menuback .menu_main .user{
-    background: darkmagenta;
     margin:0;
 
+}
+
+#icon{
+    color:rgb(187, 190, 199); 
+    margin-right: 15px;
+    font-size: 20px;
 }
 
 div.content{
