@@ -22,7 +22,7 @@ div.menuback .menu_main{
 
 div.menuback .menu_main ul{
     text-align: center;    /* 把字靠右 */
-    margin-left: 90px;   /* 清單與銀幕旁邊的距離 */
+    margin-left: 90px;   /* 清單與銀幕旁邊的距離 這邊調lift是因為右邊那個div占了空間*/
     height: 70px;
 }
 
