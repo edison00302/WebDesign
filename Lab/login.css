@@ -1,0 +1,18 @@
+body{
+    display: grid;
+    grid-template-rows:10vh 1fr 200px;
+    height: 100vh;
+    margin: 0;
+}
+
+div.head{
+    background: black;
+}
+
+div.main{
+    background: rgb(189, 20, 20);
+}
+
+div.footer{
+    background: rgb(156, 205, 87);
+}
