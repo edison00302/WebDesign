@@ -13,16 +13,24 @@ div.menuback{
 div.menuback .menu_main{
     background:rgba(255, 250, 250, 0.5); /* 把清menu變成半透明的 */
     display: grid;
-    grid-template-columns: 90% 10%;
+    grid-template-columns: 20% 60% 20%;
     position: fixed;
     top: 0px;
     width: 100vw;
     z-index: 999;                   /* 把這個menu的圖層至於最上面 才不會被下面的圖擋住*/
 }
 
+div.menuback .menu_main .logo{
+    margin: 0;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 70px;
+}
+
 div.menuback .menu_main ul{
     text-align: center;    /* 把字靠右 */
-    margin-left: 90px;   /* 清單與銀幕旁邊的距離 這邊調lift是因為右邊那個div占了空間*/
+    margin-right: 10px;   /* 清單與銀幕旁邊的距離 這邊調lift是因為右邊那個div占了空間*/
     height: 70px;
 }
 
@@ -35,13 +43,14 @@ div.menuback .menu_main li{
 
 div.menuback .menu_main .user{
     margin:0;
-
+    margin-top: 5px;
+    margin-right:10px;
 }
 
 #icon{
     color:rgb(187, 190, 199); 
     margin-right: 15px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 div.content{
