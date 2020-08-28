@@ -39,6 +39,7 @@ div.menuback .menu_main li{
     color: rgb(7, 6, 6); /* 把字的顏色改成黑色 */
     line-height: 130px;   /* 把字平行往下 */
     margin-right: 40px; /* 清單裡面字之間的距離 */
+    font-family: 'Cinzel', serif;
 }
 
 div.menuback .menu_main .user{
@@ -54,17 +55,14 @@ div.menuback .menu_main .user a{
 #icon{
     color:rgb(187, 190, 199); 
     margin-right: 15px;
-    font-size: 20px;
+    font-size: 18px;
+    font-family: 'Cinzel', serif;
 }
 
 #icon:hover{
     color: rgb(7, 6, 6);
 }
 
-div.content{
-    background: rgb(2, 2, 2);
-    /* height: 120vh; */
-}
 .tales {
     width: 100vw;            /*圖片的寬度與高度 */
     max-height: 100vh
@@ -86,7 +84,7 @@ div.main .intro{
 div.main .intro .paragraph1{
     width: 70vw;
     margin:0px auto; /* div置中 */
-    margin-top:18px;
+    margin-top:25px;
     color: rgb(2, 2, 2);
 }
 
@@ -97,22 +95,25 @@ div.main .intro .paragraph1 h1{
 
 }
 
-}
 div.main .intro .paragraph1 p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
     text-align: left;
 }
 
-div.main .workpieces{
-    background: rgb(232, 180, 9);
+div.main .workpieces .changesizeofdiv{
+    margin-left:320px;
+    margin-top:100px;
+    width: 800px;
+    max-height: 600px;
+}
 
+#carouselExampleIndicators .carousel-inner img{
+    height: 400px;
 }
 
 div.main .footer{
-    background: rgb(13, 193, 248);
     height: 100px;
+    color: rgb(189, 188, 188);
+    text-align: center;
 }
-
-
-
