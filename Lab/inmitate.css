@@ -70,7 +70,49 @@ div.content{
     max-height: 100vh
   }
 
-div.footer{
+div.main{
     display: grid;
-    background: cadetblue;
+    height: 110vh;
+    display: grid; 
+    grid-template-rows: 150px 1fr 100px; /*分成三塊 上給說明 中給圖片跑馬燈 下給footer */
 }
+
+div.main .intro{
+    background: rgb(255, 255, 255);
+    height: 150px;
+
+}
+
+div.main .intro .paragraph1{
+    width: 70vw;
+    margin:0px auto; /* div置中 */
+    margin-top:18px;
+    color: rgb(2, 2, 2);
+}
+
+div.main .intro .paragraph1 h1{
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+    text-align: left;
+
+}
+
+}
+div.main .intro .paragraph1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: left;
+}
+
+div.main .workpieces{
+    background: rgb(232, 180, 9);
+
+}
+
+div.main .footer{
+    background: rgb(13, 193, 248);
+    height: 100px;
+}
+
+
+
